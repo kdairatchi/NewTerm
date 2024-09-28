@@ -8,7 +8,7 @@ chmod +x learn.py
 Then run it:
 
 ```sh
-./learn.py
+./learn.py -i
 ```
 
 If you want a **shell script (`.sh`)** that can handle basic terminal commands, you would need to write it in **Bash** or another shell language. However, the current implementation relies on Python libraries like `argparse`, `readline`, and `openai`, which are not supported in Bash.
